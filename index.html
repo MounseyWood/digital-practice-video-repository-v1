@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashion Digital Tools Video Library</title>
+    <title>CLO 3D Digital Practice Video Library</title>
     <style>
         * {
             margin: 0;
@@ -63,6 +63,11 @@
         .intro-section p {
             font-size: 1.1em;
             line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .intro-section p:last-child {
+            margin-bottom: 0;
         }
 
         .video-grid {
@@ -96,7 +101,7 @@
             position: relative;
             width: 100%;
             height: 280px;
-            background: linear-gradient(45deg, #78be20, #009cde);
+            background: linear-gradient(135deg, #857550 0%, #77c5d5 100%);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -198,6 +203,42 @@
         .help-section p {
             font-size: 1.05em;
             line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .help-section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .help-section a {
+            color: #FFF200;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .help-section a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            background-color: #1D1D1B;
+            color: #FFFFFF;
+            padding: 25px;
+            border-radius: 3px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .footer .institution {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .footer .copyright {
+            font-size: 0.9em;
+            opacity: 0.8;
+            margin-bottom: 0;
         }
 
         @media (max-width: 768px) {
@@ -227,113 +268,156 @@
 <body>
     <div class="container">
         <header class="header">
-            <h1>Fashion Digital Tools Video Library</h1>
-            <p>Your comprehensive collection of tutorials, insights, and industry expertise to support your creative journey</p>
+            <h1>CLO 3D Digital Practice Video Library</h1>
+            <p>Your comprehensive collection of tutorials, insights, and industry expertise to support your creative journey in digital fashion design</p>
         </header>
 
         <section class="intro-section">
-            <h2>Welcome to Your Digital Practice Library</h2>
-            <p>This curated collection of videos will help you develop the digital competencies essential for contemporary fashion practice. Each tutorial is designed to support your creative and technical development with industry-standard digital tools and techniques. Click on any video thumbnail to begin watching.</p>
+            <h2>Welcome to Your Digital Fashion Library</h2>
+            <p>This curated collection of videos will help you develop the digital competencies essential for contemporary fashion practice. Each tutorial is designed to support your creative and technical development with industry-standard digital tools and techniques.</p>
+            <p>When you click on any video thumbnail, you'll be redirected to our Microsoft Stream server where you'll find full video transcripts and chapter timestamps to help you navigate to specific topics quickly.</p>
         </section>
 
         <main class="video-grid" role="main">
+            <!-- VIDEO 1: Creating Avatars & Systematic Drafting -->
             <article class="video-card">
-                <a href="DIGITAL_PRACTICE_AVATARS_&_SYSTEMATIC_DRAFTING.mp4" class="video-link" aria-describedby="video-1-desc">
+                <a href="[INSERT VIDEO 1 STREAM LINK HERE]" class="video-link" aria-describedby="video-1-desc">
                     <div class="video-thumbnail">
-                        <img src="/api/placeholder/300/169" alt="Digital Practice: Avatars & Systematic Drafting tutorial thumbnail">
+                        <img src="[INSERT VIDEO 1 THUMBNAIL IMAGE HERE]" alt="Creating Avatars & Systematic Drafting tutorial thumbnail">
                         <div class="play-overlay" aria-hidden="true"></div>
                     </div>
                     <div class="video-info">
-                        <h3 class="video-title">Digital Practice: Avatars & Systematic Drafting</h3>
-                        <p class="video-description" id="video-1-desc">Learn to create custom avatars for your target market and master systematic pattern drafting techniques. Discover how to build virtual mannequins, work with different body types and sizes, and create basic pattern blocks digitally.</p>
+                        <h3 class="video-title">Creating Avatars & Systematic Drafting</h3>
+                        <p class="video-description" id="video-1-desc">Learn to create custom avatars that match your target market's measurements. This comprehensive tutorial covers measuring studio mannequins, creating digital twins, and building avatars for different demographics including plus-size, petite, maternity, and adaptive clothing.</p>
                         <div class="video-meta">
                             <span>Beginner Level</span>
-                            <span class="video-duration">63 min</span>
+                            <span class="video-duration">62 min</span>
                         </div>
                     </div>
                 </a>
             </article>
 
+            <!-- VIDEO 2: Copying Patterns & Source Pieces -->
             <article class="video-card">
-                <a href="#video-2" class="video-link" aria-describedby="video-2-desc">
+                <a href="[INSERT VIDEO 2 STREAM LINK HERE]" class="video-link" aria-describedby="video-2-desc">
                     <div class="video-thumbnail">
-                        <img src="/api/placeholder/300/169" alt="Photoshop for Fashion Photography tutorial thumbnail">
+                        <img src="[INSERT VIDEO 2 THUMBNAIL IMAGE HERE]" alt="Copying Patterns & Source Pieces tutorial thumbnail">
                         <div class="play-overlay" aria-hidden="true"></div>
                     </div>
                     <div class="video-info">
-                        <h3 class="video-title">Photoshop for Fashion Photography</h3>
-                        <p class="video-description" id="video-2-desc">Learn professional photo editing techniques for fashion imagery. Discover how to enhance colours, adjust lighting, and create stunning visual presentations.</p>
+                        <h3 class="video-title">Copying Patterns & Source Pieces</h3>
+                        <p class="video-description" id="video-2-desc">Master the art of digitising existing patterns and garments. This tutorial shows you how to trace patterns from books, photograph and import physical patterns, and use CLO's parametric tools to recreate garments from source pieces.</p>
                         <div class="video-meta">
-                            <span>Intermediate Level</span>
-                            <span class="video-duration">22 min</span>
-                        </div>
-                    </div>
-                </a>
-            </article>
-
-            <article class="video-card">
-                <a href="#video-3" class="video-link" aria-describedby="video-3-desc">
-                    <div class="video-thumbnail">
-                        <img src="/api/placeholder/300/169" alt="3D Fashion Design Software tutorial thumbnail">
-                        <div class="play-overlay" aria-hidden="true"></div>
-                    </div>
-                    <div class="video-info">
-                        <h3 class="video-title">3D Fashion Design Software</h3>
-                        <p class="video-description" id="video-3-desc">Step into the future of fashion design with 3D modelling software. Learn how to create virtual garments and streamline your design process.</p>
-                        <div class="video-meta">
-                            <span>Advanced Level</span>
+                            <span>Beginner Level</span>
                             <span class="video-duration">28 min</span>
                         </div>
                     </div>
                 </a>
             </article>
 
+            <!-- VIDEO 3: Importing Files & Adding Fullness -->
             <article class="video-card">
-                <a href="#video-4" class="video-link" aria-describedby="video-4-desc">
+                <a href="[INSERT VIDEO 3 STREAM LINK HERE]" class="video-link" aria-describedby="video-3-desc">
                     <div class="video-thumbnail">
-                        <img src="/api/placeholder/300/169" alt="Digital Pattern Making tutorial thumbnail">
+                        <img src="[INSERT VIDEO 3 THUMBNAIL IMAGE HERE]" alt="Importing Files & Adding Fullness tutorial thumbnail">
                         <div class="play-overlay" aria-hidden="true"></div>
                     </div>
                     <div class="video-info">
-                        <h3 class="video-title">Digital Pattern Making</h3>
-                        <p class="video-description" id="video-4-desc">Transform your pattern-making skills with digital tools. Learn to create, modify, and grade patterns using industry-standard software.</p>
+                        <h3 class="video-title">Importing Files & Adding Fullness</h3>
+                        <p class="video-description" id="video-3-desc">A comprehensive guide to importing DXF and PDF pattern files into CLO 3D, plus advanced techniques for adding volume and texture to your designs. Learn slash-and-spread methods, create gathering and smocking effects, add ruffles and pleats.</p>
+                        <div class="video-meta">
+                            <span>Beginner Level</span>
+                            <span class="video-duration">1 hr 49 min</span>
+                        </div>
+                    </div>
+                </a>
+            </article>
+
+            <!-- VIDEO 4: Digital Fabrics Fundamentals -->
+            <article class="video-card">
+                <a href="[INSERT VIDEO 4 STREAM LINK HERE]" class="video-link" aria-describedby="video-4-desc">
+                    <div class="video-thumbnail">
+                        <img src="[INSERT VIDEO 4 THUMBNAIL IMAGE HERE]" alt="Digital Fabrics Fundamentals tutorial thumbnail">
+                        <div class="play-overlay" aria-hidden="true"></div>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">Digital Fabrics Fundamentals</h3>
+                        <p class="video-description" id="video-4-desc">Understand the science behind digital fabric creation in CLO 3D. Learn about PBR (Physically Based Rendering) workflows, texture mapping, and how different material properties affect the look and feel of your virtual garments.</p>
+                        <div class="video-meta">
+                            <span>Beginner Level</span>
+                            <span class="video-duration">41 min</span>
+                        </div>
+                    </div>
+                </a>
+            </article>
+
+            <!-- VIDEO 5: Advanced Digital Fabric Creation -->
+            <article class="video-card">
+                <a href="[INSERT VIDEO 5 STREAM LINK HERE]" class="video-link" aria-describedby="video-5-desc">
+                    <div class="video-thumbnail">
+                        <img src="[INSERT VIDEO 5 THUMBNAIL IMAGE HERE]" alt="Advanced Digital Fabric Creation tutorial thumbnail">
+                        <div class="play-overlay" aria-hidden="true"></div>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">Advanced Digital Fabric Creation</h3>
+                        <p class="video-description" id="video-5-desc">Take your fabric knowledge further with advanced material properties and custom texture creation. Learn to work with metallic, velvet, fur, and iridescent materials, understand roughness and reflection mapping, and create your own fabric textures from photographs.</p>
                         <div class="video-meta">
                             <span>Intermediate Level</span>
-                            <span class="video-duration">35 min</span>
+                            <span class="video-duration">40 min</span>
                         </div>
                     </div>
                 </a>
             </article>
 
+            <!-- VIDEO 6: Modular Configurator & Pen Tools -->
             <article class="video-card">
-                <a href="#video-5" class="video-link" aria-describedby="video-5-desc">
+                <a href="[INSERT VIDEO 6 STREAM LINK HERE]" class="video-link" aria-describedby="video-6-desc">
                     <div class="video-thumbnail">
-                        <img src="/api/placeholder/300/169" alt="Digital Portfolio Creation tutorial thumbnail">
+                        <img src="[INSERT VIDEO 6 THUMBNAIL IMAGE HERE]" alt="Modular Configurator & Pen Tools tutorial thumbnail">
                         <div class="play-overlay" aria-hidden="true"></div>
                     </div>
                     <div class="video-info">
-                        <h3 class="video-title">Digital Portfolio Creation</h3>
-                        <p class="video-description" id="video-5-desc">Build a professional digital portfolio that showcases your work effectively. Learn layout design, web publishing, and presentation techniques.</p>
+                        <h3 class="video-title">Modular Configurator & Pen Tools</h3>
+                        <p class="video-description" id="video-6-desc">Explore CLO's modular configurator for rapid prototyping and the powerful pen tool for creating fitted garments. Learn to mix and match pre-built pattern components, draw directly onto avatars for sportswear and activewear, and create professional sweatshirts.</p>
                         <div class="video-meta">
-                            <span>All Levels</span>
-                            <span class="video-duration">18 min</span>
+                            <span>Beginner Level</span>
+                            <span class="video-duration">1 hr 16 min</span>
                         </div>
                     </div>
                 </a>
             </article>
 
+            <!-- VIDEO 7: Preparing Assets for Production -->
             <article class="video-card">
-                <a href="#video-6" class="video-link" aria-describedby="video-6-desc">
+                <a href="[INSERT VIDEO 7 STREAM LINK HERE]" class="video-link" aria-describedby="video-7-desc">
                     <div class="video-thumbnail">
-                        <img src="/api/placeholder/300/169" alt="Digital Fabric Printing Techniques thumbnail">
+                        <img src="[INSERT VIDEO 7 THUMBNAIL IMAGE HERE]" alt="Preparing Assets for Production tutorial thumbnail">
                         <div class="play-overlay" aria-hidden="true"></div>
                     </div>
                     <div class="video-info">
-                        <h3 class="video-title">Digital Fabric Printing Techniques</h3>
-                        <p class="video-description" id="video-6-desc">Explore the world of digital textile printing. Learn about file preparation, colour management, and printing technologies for fashion applications.</p>
+                        <h3 class="video-title">Preparing Assets for Production</h3>
+                        <p class="video-description" id="video-7-desc">Take your digital designs to production with this comprehensive guide to pattern grading, lay planning, and working with modern microfactories. Learn to add seam allowances, create size runs, calculate fabric requirements, and prepare files for digital printing.</p>
                         <div class="video-meta">
-                            <span>Advanced Level</span>
-                            <span class="video-duration">32 min</span>
+                            <span>Intermediate Level</span>
+                            <span class="video-duration">1 hr 13 min</span>
+                        </div>
+                    </div>
+                </a>
+            </article>
+
+            <!-- VIDEO 8: Digital Pipeline CLO to DAZ -->
+            <article class="video-card">
+                <a href="[INSERT VIDEO 8 STREAM LINK HERE]" class="video-link" aria-describedby="video-8-desc">
+                    <div class="video-thumbnail">
+                        <img src="[INSERT VIDEO 8 THUMBNAIL IMAGE HERE]" alt="Digital Pipeline CLO to DAZ tutorial thumbnail">
+                        <div class="play-overlay" aria-hidden="true"></div>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">Digital Pipeline: CLO 3D to DAZ 3D</h3>
+                        <p class="video-description" id="video-8-desc">Discover how to create photorealistic fashion imagery by connecting CLO 3D with DAZ 3D. Learn to export your digital garments, create stunning avatars, and produce professional-quality renders for marketing, portfolios, and e-commerce.</p>
+                        <div class="video-meta">
+                            <span>Intermediate Level</span>
+                            <span class="video-duration">36 min</span>
                         </div>
                     </div>
                 </a>
@@ -342,8 +426,14 @@
 
         <section class="help-section">
             <h3>Need Help Accessing These Videos?</h3>
-            <p>If you're having trouble viewing any of the videos or need additional support, please don't hesitate to reach out. Remember, these resources are here to support your learning journey and help you develop the skills that will make you successful in the fashion industry.</p>
+            <p>If you're having trouble viewing any of the videos or need additional support, please contact your Canvas Administrator, Associate Professor David Lawrence at <a href="mailto:d.lawrence@kingston.ac.uk">d.lawrence@kingston.ac.uk</a></p>
+            <p>For Digital Fashion specific queries, please contact Digital Fashion Lecturer, Matthew Mounsey-Wood at <a href="mailto:m.mounsey-wood@kingston.ac.uk">m.mounsey-wood@kingston.ac.uk</a></p>
         </section>
+
+        <footer class="footer">
+            <div class="institution">Kingston University London, Kingston School of Art</div>
+            <div class="copyright">© 2025 Kingston University. All rights reserved.</div>
+        </footer>
     </div>
 
     <script>
